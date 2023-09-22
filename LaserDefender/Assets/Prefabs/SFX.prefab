@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8401143590099029131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8401143590099029129}
+  - component: {fileID: 8401143590099029128}
+  m_Layer: 0
+  m_Name: SFX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8401143590099029129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8401143590099029131}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8401143590099029128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8401143590099029131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 175330a3d16ba254c92ef879a0566086, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDeathSound: {fileID: 8300000, guid: 500509a50da435746b0d9ce289f63579, type: 3}
+  enemyDeathSoundVolume: 0.25
+  playerDeathSound: {fileID: 8300000, guid: 500509a50da435746b0d9ce289f63579, type: 3}
+  playerDeathSoundVolume: 0.75
+  playerLaserSound: {fileID: 8300000, guid: b7da2dcd45f86ef489e251bd4ffd4e7e, type: 3}
+  playerLaserSoundVolume: 0.1
+  enemyLaserSound: {fileID: 8300000, guid: 4b9ce431674666e4d92cbcd0f5094f13, type: 3}
+  enemyLaserSoundVolume: 0.4
+  playerHitSound: {fileID: 8300000, guid: 8c658e92bbed1964780b2fb2840b0cac, type: 3}
+  playerHitSoundVolume: 0.4
+  enemyHitSound: {fileID: 8300000, guid: 1577cbb9031744f42874fecef5ac2467, type: 3}
+  enemyHitSoundVolume: 0.4
+  healingSound: {fileID: 8300000, guid: fd4b52c693c0e1e4388c375623004b21, type: 3}
+  healingSoundVolume: 0.4
+  waveLaserSound: {fileID: 8300000, guid: d96c8b69fcca4914885403aceb765e02, type: 3}
+  waveLaserSoundVolume: 0.4
+  hugeLaserSound: {fileID: 8300000, guid: 500509a50da435746b0d9ce289f63579, type: 3}
+  hugeLaserSoundVolume: 0.4
+  gameOverVoiceSound: {fileID: 8300000, guid: 7ff9807d441cf0e47835f4ce02f9c2bd, type: 3}
+  gameOverVoiceSoundVolume: 0.2
+  gameOverMusic: {fileID: 8300000, guid: 70c5bc17ec689264e80895baae8b9d4c, type: 3}
+  gameOverMusicVolume: 0.5
+  playSelectSound: {fileID: 8300000, guid: 0cc3e9cd3943fd640932c478b3219e92, type: 3}
+  playSelectSoundVolume: 0.2
+  musicOpening: {fileID: 8300000, guid: b29808e49d07c734095a06b67bd5d950, type: 3}
+  musicOpeningVolume: 0.3
+  jingle: {fileID: 8300000, guid: 382605ac16e38da4c99019ad99c614f7, type: 3}
+  jingleVolume: 0.75
+  blipSound: {fileID: 8300000, guid: 4c241ad2e5b50444885d496fbe75dc91, type: 3}
+  blipSoundVolume: 0.5
+  quitSound: {fileID: 8300000, guid: d32f8004726fd4445910b81f11007a61, type: 3}
+  quitSoundVolume: 0.5

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &323223159596800991
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3832197083522123788}
+  - component: {fileID: 8506025972800153651}
+  m_Layer: 0
+  m_Name: Game Session
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3832197083522123788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323223159596800991}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8506025972800153651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323223159596800991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f89b1b6212f7fa94aa1cbd9b9546376b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+  level2Score: 10000
+  level3Score: 25000
+  level4Score: 40000
+  level1Spawner: {fileID: 7661283609686113444, guid: 4e61b82eaa8717642956b2dea7339be3,
+    type: 3}
+  level2Spawner: {fileID: 2226988089866875435, guid: a6f81a47532bde64f80e498bdcb55a8e,
+    type: 3}
+  level3Spawner: {fileID: 3705512992926933419, guid: 6aae7badc7c85b741a5e271e62cb0c90,
+    type: 3}
+  hugeBoySpawner: {fileID: 5794399571590333368, guid: c112e3e53f1c0374f80e4796f399488c,
+    type: 3}
+  level4Spawner: {fileID: 5445372065992690497, guid: ec70b33f58f400b468993fa23c59a44e,
+    type: 3}
+  leaderSpawner: {fileID: 227375912067171313, guid: 612e007c7482d954396b340c87a6b9a5,
+    type: 3}
+  bonusSpawner: {fileID: 1500262722012709833, guid: 2866d328af4c87447b0fd2da8ad888b3,
+    type: 3}
+  levelWaitTime: 4
+  startGameWaitTime: 1.7
